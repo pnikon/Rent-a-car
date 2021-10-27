@@ -7,6 +7,7 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 
+
 namespace Rent_a_Car.Controllers
 {
     public class HomeController : Controller
@@ -24,6 +25,12 @@ namespace Rent_a_Car.Controllers
         }
 
         public IActionResult Privacy()
+        {
+            return View();
+        }
+
+        // Test PS
+        public IActionResult Test_PS()
         {
             return View();
         }
