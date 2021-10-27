@@ -24,6 +24,3 @@ namespace Rent_a_Car
                 });
     }
 }
-
-//komentarz dodany dla testu
-//czemu to nie dziala >:(((((
